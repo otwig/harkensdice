@@ -6,7 +6,7 @@ import { Switch, Route, Link } from 'react-router-dom'
 
 export default function SiteHeader() {
   return (
-    <div>
+    <div className='homeHeader'>
       <Link to='/About'>About</Link>
       <Link to='/Process'>Process</Link>
       <Link to='/Gallery'>Gallery</Link>
