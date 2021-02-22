@@ -76,7 +76,10 @@ a {
   align-items: center;
 }
 
-.secretMenu {
+.site .secretMenu {
   display: none;
 }
 
+.site .Splash {
+  display: none;
+}

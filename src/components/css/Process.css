@@ -74,5 +74,12 @@ a {
   margin: 0px 20px;
   text-align: justify;
   align-items: center;
-  
+}
+
+.process .secretMenu {
+  display: none;
+}
+
+.process .Splash {
+  display: none;
 }
