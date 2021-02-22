@@ -83,3 +83,7 @@ a {
 img {
   width: auto;
 }
+
+.gallery .Splash {
+  display: none;
+}
