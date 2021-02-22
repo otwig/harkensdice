@@ -1,5 +1,4 @@
 import React from 'react'
-import './compCSS/header.css'
 import header from '../images/header.png'
 
 export default function Header() {
