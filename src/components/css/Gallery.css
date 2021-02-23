@@ -51,11 +51,12 @@ a {
   justify-content: center;
 }
 
-.homeHeader {
+.gallery .homeHeader {
   display: flex;
   justify-content: space-around;
   background-color: white;
   font-weight: 700;
+  width: auto;
 }
 
 .homeHeader a {
@@ -78,6 +79,8 @@ a {
 
 .secretMenu {
   display: inline-block;
+  width: 80%;
+  align-self: center;
 }
 
 img {
