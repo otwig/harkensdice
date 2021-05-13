@@ -6,11 +6,11 @@ import { Switch, Route, Link } from 'react-router-dom'
 
 export default function About() {
   return (
-    <div className='about'>
+    <div className='About'>
       <Home />
       <SiteHeader />
 
-      <div className="text">
+      <div className="Text">
         <h3>About Harkens Dice</h3>
         <p>
           Located in the state of Vermont, Harkens Dice is run by Olivia Hartwig. Olivia has always been a maker; from illustrations in childhood to a ten year career in ceramics and everything in between. With a Bachelor in Fine Arts from Alfred University in Western New York, Olivia specialized in ceramics and storytelling. After graduating they moved to New York City and discovered tabletop role playing games.
@@ -20,7 +20,7 @@ export default function About() {
         </p>
         <br />
         <p>
-          Olivia has been known to play various characters in DnD5e including Chelse Pleaver, a ranger turned grave cleric fire genasi, Yuda the changeling artificer, and most recently Merric McMahon, circle of the shepherd druid barbarian. 
+          Olivia has been known to play various characters in DnD5e including Chelse Pleaver, a ranger turned grave cleric fire genasi, Yuda the changeling artificer, and most recently Merric McMahon, circle of the shepherd druid barbarian.
         </p>
         <br />
         <h3>Harkens Dice Collections include:</h3>

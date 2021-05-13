@@ -4,17 +4,17 @@
   font-family: "Rubik";
 }
 
-.site header {
+.Site header {
   margin: 20px 0px 0px 0px;
 }
 
-.site .buttonBox {
+.Site .buttonBox {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.site button {
+.Site button {
   font-family: "Rubik";
   font-weight: 200;
   background-color: black;
@@ -25,12 +25,12 @@
   padding: 10px 50px;
 }
 
-.site a {
+.Site a {
   text-decoration: none;
   color: chartreuse;
 }
 
-.site {
+.Site {
   display: flex;
   flex-direction: column;
 }
@@ -51,7 +51,7 @@ a {
   justify-content: center;
 }
 
-.site .homeHeader {
+.Site .homeHeader {
   display: flex;
   justify-content: space-around;
   background-color: white;
@@ -65,18 +65,18 @@ a {
   font-size: 22px;
 }
 
-.gallery {
+.Gallery {
   display: flex;
   justify-content: center;
 }
 
-.gallery img {
+.Gallery img {
   margin-top: 10px;
   width: 50%;
   align-self: center;
 }
 
-.text {
+.Text {
   display: flex;
   flex-direction: column;
   margin: 0px 20px;
@@ -85,10 +85,10 @@ a {
   width: 80%;
 }
 
-.site .secretMenu {
+.Site .secretMenu {
   display: none;
 }
 
-.site .Splash {
+.Site .Splash {
   display: none;
 }

@@ -4,17 +4,17 @@
   font-family: "Rubik";
 }
 
-.about header {
+.About header {
   margin: 20px 0px 0px 0px;
 }
 
-.about .buttonBox {
+.About .ButtonBox {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.about button {
+.About button {
   font-family: "Rubik";
   font-weight: 200;
   background-color: black;
@@ -25,12 +25,12 @@
   padding: 10px 50px;
 }
 
-.about a {
+.About a {
   text-decoration: none;
   color: chartreuse;
 }
 
-.about {
+.About {
   display: flex;
   flex-direction: column;
 }
@@ -63,12 +63,12 @@ a {
   font-size: 22px;
 }
 
-.gallery {
+.Gallery {
   display: flex;
   justify-content: center;
 }
 
-.text {
+.Text {
   display: flex;
   flex-direction: column;
   margin: 0px 20px;
@@ -76,10 +76,10 @@ a {
   align-items: center;
 }
 
-.about .secretMenu {
+.About .secretMenu {
   display: none;
 }
 
-.about .Splash {
+.About .Splash {
   display: none;
 }

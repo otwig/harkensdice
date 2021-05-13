@@ -6,14 +6,14 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export default function Gallery() {
   return (
-    <div className='gallery'>
+    <div className='Gallery'>
       <div className='secretMenu'>
         <Home />
         <SiteHeader />
       </div>
-
-      <h1>Dice Gallery</h1>
-
+      <div className="Text">
+        <h3>Dice Gallery</h3>
+      </div>
       <div className='largeGallery'>
         <h3>Astral Winds</h3>
         <div className='diceLarge'>
@@ -319,12 +319,12 @@ export default function Gallery() {
             <img src='/images/astralwinds/IMG_6822.jpg' />
       </ div> */}
 
-<div className='largeGallery'>
-        <h3>Eldritch Vibes in Black Ink</h3>
-        <div className='diceLarge'>
-          <img src='/images/IMG_8059.jpg' />
-        </ div>
-        {/* <div className='smallGallery'>
+        <div className='largeGallery'>
+          <h3>Eldritch Vibes in Black Ink</h3>
+          <div className='diceLarge'>
+            <img src='/images/IMG_8059.jpg' />
+          </ div>
+          {/* <div className='smallGallery'>
           <div className='diceSmall'>
             <img src='/images/astralwinds/IMG_6800.jpg' />
           </ div>
@@ -334,8 +334,8 @@ export default function Gallery() {
           <div className='diceSmall'>
             <img src='/images/astralwinds/IMG_6822.jpg' />
       </ div> */}
-      </div>
-      <hr />
+        </div>
+        <hr />
       </div>
       <hr />
     </div>

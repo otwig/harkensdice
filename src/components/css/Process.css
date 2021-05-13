@@ -4,17 +4,17 @@
   font-family: "Rubik";
 }
 
-.process header {
+.Process header {
   margin: 20px 0px 0px 0px;
 }
 
-.process .buttonBox {
+.Process .ButtonBox {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.process button {
+.Process button {
   font-family: "Rubik";
   font-weight: 200;
   background-color: black;
@@ -25,12 +25,12 @@
   padding: 10px 50px;
 }
 
-.process a {
+.Process a {
   text-decoration: none;
   color: chartreuse;
 }
 
-.process {
+.Process {
   display: flex;
   flex-direction: column;
 }
@@ -63,12 +63,12 @@ a {
   font-size: 22px;
 }
 
-.process {
+.Process {
   display: flex;
   justify-content: center;
 }
 
-.text {
+.Text {
   display: flex;
   flex-direction: column;
   margin: 0px 20px;
@@ -76,20 +76,20 @@ a {
   align-items: center;
 }
 
-.process .secretMenu {
+.Process .secretMenu {
   display: none;
 }
 
-.process .Splash {
+.Process .Splash {
   display: none;
 }
 
-.process .imageContainer {
+.Process .imageContainer {
   display: flex;
   
 }
 
-.process .imageContainer img {
+.Process .imageContainer img {
   width: 40vw;
   margin: 15px;
 }

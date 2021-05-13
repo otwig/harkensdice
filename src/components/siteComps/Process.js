@@ -6,11 +6,11 @@ import { Switch, Route, Link } from 'react-router-dom'
 
 export default function Process() {
   return (
-    <div className='process'>
+    <div className='Process'>
       <Home />
       <SiteHeader />
 
-      <div className="text">
+      <div className="Text">
         <h3>How It's Made</h3>
         <p>Harkens Dice are made with a variety of tools including 3D printed dice masters from <a href="https://www.etsy.com/shop/TypeXIII">TypeXIII on Etsy</a>, silicone molds made by our Alchemist-in-Chief, and <a href="https://www.artnglow.com/">Art-n-Glow resin</a>. The neon resins are tinted with handmade alcohol inks, though <a href="https://rangerink.com/collections/tim-holtz-alcohol-inks?gclid=CjwKCAjw-e2EBhAhEiwAJI5jg_d-UBHTe0Tmz_tHUIunS1U18uQlbySSfcZfA9uiEG8p2FO3fZ4YWBoCLE0QAvD_BwE">Ranger Inks</a> are used in some applications. Colorshifting powders, flakes, and glitters have been gathered from a variety of sources. </p>
         <div className="imageContainer">

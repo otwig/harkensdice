@@ -4,17 +4,17 @@
   font-family: "Rubik";
 }
 
-.gallery header {
+.Gallery header {
   margin: 20px 0px 0px 0px;
 }
 
-.gallery .buttonBox {
+.Gallery .ButtonBox {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.gallery button {
+.Gallery button {
   font-family: "Rubik";
   font-weight: 200;
   background-color: black;
@@ -25,12 +25,12 @@
   padding: 10px 50px;
 }
 
-.gallery a {
+.Gallery a {
   text-decoration: none;
   color: chartreuse;
 }
 
-.gallery {
+.Gallery {
   display: flex;
   flex-direction: column;
 }
@@ -51,7 +51,7 @@ a {
   justify-content: center;
 }
 
-.gallery .homeHeader {
+.Gallery .homeHeader {
   display: flex;
   justify-content: space-around;
   background-color: white;
@@ -64,7 +64,7 @@ a {
   font-size: 22px;
 }
 
-.gallery {
+.Gallery {
   display: flex;
   justify-content: center;
 }
@@ -87,11 +87,11 @@ img {
   width: auto;
 }
 
-.gallery .Splash {
+.Gallery .Splash {
   display: none;
 }
 
-.gallery h1 {
+.Gallery h1 {
   text-align: center;
   background-color: black;
   color: chartreuse;

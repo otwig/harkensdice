@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.home {
+.Home {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,13 +32,13 @@ button {
   margin: 15px 0px;
 }
 
-.buttonBox a {
+.ButtonBox a {
   text-decoration: none;
   color: chartreuse;
   padding: 20px 50px;
 }
 
-.buttonBox {
+.ButtonBox {
   display: flex;
   flex-direction: column;
   z-index: 2;
