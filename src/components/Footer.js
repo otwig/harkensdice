@@ -7,15 +7,9 @@ export default function Footer() {
 
     <div className='footerBox'>
 
-      <a href="https://www.etsy.com/shop/harkensdice">Shop</a>
+      <p>Copyright Harkens Dice 2021</p>
+      <h4>Site built by <a href="http://oliviahartwig.com/">Olivia Hartwig</a></h4>
 
-      <a href="https://www.instagram.com/harkensdice/">Instagram</a>
-
-      {/* <a href="https://ko-fi.com/harkensdice">Ko-fi</a> */}
-
-     <a href="https://www.tiktok.com/@harkensdice?lang=en">TikTok</a>
-
-      <Link to='/Contact'>Contact</Link>
 
 
     </div>

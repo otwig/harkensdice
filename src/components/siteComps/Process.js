@@ -1,13 +1,14 @@
 import React from 'react'
 import SiteHeader from './SiteHeader.js'
-import Home from '../Home.js'
+import SiteNav from '../SiteNav.js'
+import Footer from '../Footer.js'
 import '../css/Process.css'
 import { Switch, Route, Link } from 'react-router-dom'
 
 export default function Process() {
   return (
     <div className='Process'>
-      <Home />
+      <SiteNav />
       <SiteHeader />
 
       <div className="Text">
@@ -21,6 +22,7 @@ export default function Process() {
         <br />
 
       </div>
+      <Footer />
     </div>
   )
 }

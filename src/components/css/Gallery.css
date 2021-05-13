@@ -33,21 +33,6 @@
 .Gallery {
   display: flex;
   flex-direction: column;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-.footerBox a {
-  justify-content: center;
-  background-color: black;
-  padding: 20px 50px;
-}
-
-.footerBox {
-  display: flex;
   justify-content: center;
 }
 
@@ -56,7 +41,9 @@ a {
   justify-content: space-around;
   background-color: white;
   font-weight: 700;
-  width: auto;
+  width: 80%;
+  align-self: center;
+  margin:10px;
 }
 
 .homeHeader a {
@@ -64,12 +51,7 @@ a {
   font-size: 22px;
 }
 
-.Gallery {
-  display: flex;
-  justify-content: center;
-}
-
-.text {
+.Text {
   display: flex;
   flex-direction: column;
   margin: 0px 20px;
@@ -77,30 +59,38 @@ a {
   align-items: center;
 }
 
-.secretMenu {
-  display: inline-block;
-  width: 80%;
-  align-self: center;
-}
-
 img {
-  width: auto;
+  width: 90%;
 }
 
 .Gallery .Splash {
   display: none;
 }
 
-.Gallery h1 {
-  text-align: center;
+.Gallery h3 {
+  margin-bottom: 0;
+  color: white;
+  padding: 0 25px;
   background-color: black;
-  color: chartreuse;
+}
+
+.Gallery h4 {
+  margin-top:25px;
+  margin-bottom: 5px;
 }
 
 /* ``````````````````````````````````*/
+.galleries {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .largeGallery {
   display: flex;
   flex-direction: column;
+  width: 40%;
   align-items: center;
 }
 

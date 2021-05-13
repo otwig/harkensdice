@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap");
-
+/* font-family */
 * {
   font-family: "Rubik";
 }
 
+/* set-up for the site, in which all components are organized */
 .App {
   display: flex;
   flex-direction: column;
@@ -20,6 +21,11 @@ header {
   margin: 20px 0px 00px 0px;
 }
 
+header img {
+  width: 100%;
+}
+
+/* button styling */
 button {
   font-family: "Rubik";
   font-weight: 700;
@@ -44,22 +50,72 @@ button {
   z-index: 2;
 }
 
+/* link styling */
 a {
   color: black;
   text-decoration: none;
 }
 
-.footerBox a {
+.SiteNav a:hover {
+  background-color: chartreuse;
+  color: black;
+}
+.SiteNav a:active {
+  background-color: chartreuse;
+  color: white;
+}
+
+/* navigation menu styling */
+.SiteNav,
+.footerBox {
+  display: flex;
+  justify-content: center;
+}
+
+.SiteNav a {
+  justify-content: center;
+  background-color: black;
   padding: 20px 50px;
 }
 
+/* contact component styling */
 .contact {
   display: flex;
   justify-content: center;
   margin: 50px 0px 15px 0px;
 }
 
+/* landing page image styling */
 .Splash {
-  position:absolute;
-  z-index:0;
+  position: absolute;
+  z-index: 0;
+}
+
+.footerBox p,
+.footerBox h4 {
+  color: white;
+}
+
+.footerBox a {
+  margin-left: 5px;
+}
+
+.footerBox a:hover {
+  background-color: chartreuse;
+  color: black;
+}
+
+.footerBox a:active {
+  background-color: chartreuse;
+  color: white;
+}
+
+.footerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 80%;
+  align-self: center;
+  bottom: 0;
 }
