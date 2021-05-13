@@ -83,3 +83,13 @@ a {
 .process .Splash {
   display: none;
 }
+
+.process .imageContainer {
+  display: flex;
+  
+}
+
+.process .imageContainer img {
+  width: 40vw;
+  margin: 15px;
+}

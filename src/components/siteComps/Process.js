@@ -11,11 +11,15 @@ export default function Process() {
       <SiteHeader />
 
       <div className="text">
-        <h3>A process title title title </h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et odio pellentesque diam volutpat commodo sed. Leo integer malesuada nunc vel risus commodo viverra maecenas. Pretium lectus quam id leo in. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Felis eget velit aliquet sagittis id. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Vel pharetra vel turpis nunc eget lorem. Turpis in eu mi bibendum neque. In nisl nisi scelerisque eu ultrices vitae auctor eu augue. Fermentum leo vel orci porta non. Non curabitur gravida arcu ac. Justo nec ultrices dui sapien eget mi proin sed libero. Non nisi est sit amet facilisis.
+        <h3>How It's Made</h3>
+        <p>Harkens Dice are made with a variety of tools including 3D printed dice masters from <a href="https://www.etsy.com/shop/TypeXIII">TypeXIII on Etsy</a>, silicone molds made by our Alchemist-in-Chief, and <a href="https://www.artnglow.com/">Art-n-Glow resin</a>. The neon resins are tinted with handmade alcohol inks, though <a href="https://rangerink.com/collections/tim-holtz-alcohol-inks?gclid=CjwKCAjw-e2EBhAhEiwAJI5jg_d-UBHTe0Tmz_tHUIunS1U18uQlbySSfcZfA9uiEG8p2FO3fZ4YWBoCLE0QAvD_BwE">Ranger Inks</a> are used in some applications. Colorshifting powders, flakes, and glitters have been gathered from a variety of sources. </p>
+        <div className="imageContainer">
+          <img src="/images/IMG_2431.jpeg" alt="" />
+          <img src="/images/IMG_2892.jpeg" alt="" />
+        </div>
+        <p>Silicone molds were created from the dice masters, which were sanded and polished by hand. Resin is then mixed in two parts; colors and pigments are added depending on the design and poured into the molds. They are placed in a pressure pot to 35 PSI and left to cure for 24 hours at which time, they can be safely demolded. The dice are then trimmed of flashing, left to rest another week for their final cure, and sanded where imperfections remain. They are polished, inked, and photographed before being added to Etsy for purchase. </p>
+        <br />
 
-In vitae turpis massa sed elementum. Bibendum ut tristique et egestas quis ipsum. Id consectetur purus ut faucibus pulvinar elementum integer enim neque. Adipiscing tristique risus nec feugiat. Vivamus arcu felis bibendum ut tristique et. Interdum consectetur libero id faucibus nisl. Risus pretium quam vulputate dignissim. Scelerisque felis imperdiet proin fermentum leo. Pellentesque diam volutpat commodo sed egestas egestas. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Semper eget duis at tellus at urna condimentum mattis pellentesque. Pretium viverra suspendisse potenti nullam ac tortor vitae. Sagittis purus sit amet volutpat consequat mauris nunc congue nisi. Sapien eget mi proin sed libero enim sed faucibus turpis. Id semper risus in hendrerit gravida rutrum quisque non tellus. Mauris augue neque gravida in fermentum. Vestibulum lectus mauris ultrices eros in cursus. Venenatis lectus magna fringilla urna porttitor. Euismod lacinia at quis risus sed vulputate odio. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras.</p>
       </div>
     </div>
   )
