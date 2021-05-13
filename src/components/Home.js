@@ -12,7 +12,8 @@ function Home() {
         <button> <a href="https://www.etsy.com/shop/harkensdice">Shop</a> </button>
         <button><Link to="/Site">Site</Link></button>
         <button><a href="https://www.instagram.com/harkensdice/">Instagram</a></button>
-        <button><a href="https://ko-fi.com/harkensdice">Ko-Fi</a></button>
+        {/* <button><a href="https://ko-fi.com/harkensdice">Ko-Fi</a></button> */}
+        <button><a href="https://www.tiktok.com/@harkensdice?lang=en">TikTok</a></button>
       </div>
       <div className='Splash'>
         <img src="/images/dice.png" alt="" />

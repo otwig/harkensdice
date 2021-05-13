@@ -11,7 +11,9 @@ export default function Footer() {
 
       <a href="https://www.instagram.com/harkensdice/">Instagram</a>
 
-      <a href="https://ko-fi.com/otwig">Ko-fi</a>
+      {/* <a href="https://ko-fi.com/harkensdice">Ko-fi</a> */}
+
+     <a href="https://www.tiktok.com/@harkensdice?lang=en">TikTok</a>
 
       <Link to='/Contact'>Contact</Link>
 
