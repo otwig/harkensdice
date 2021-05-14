@@ -7,29 +7,38 @@
   background-color: black;
 }
 
-#burger {
-  width: 40px;
+.BurgerNav .Menu a {
+  color: chartreuse;
+  font-weight: 400;
+  margin: 0px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 5px;
+}
+
+.BurgerNav .Menu li {
+  margin-bottom: 20px;
+}
+
+.burgerDiv button {
   background: none;
   border: none;
-  margin-right: 10px;
   background-color: black;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 0;
 }
 
 .burgerDiv {
   background-color: black;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  margin-right: 20px;
+  align-items: flex-start;
+  margin-left: 10px;
   margin-top: 10px;
 }
 
 #burger img {
   width: 40px;
-}
-
-.burgerNavBar .menu {
-  display: flex;
-  flex-direction: column;
-  width: 20vw;
 }

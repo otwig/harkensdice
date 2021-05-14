@@ -106,7 +106,7 @@ a {
 .homeHeader a {
   color: chartreuse;
   font-size: 22px;
-  padding:10px;
+  padding: 10px;
   justify-content: center;
   background-color: black;
   padding: 15px;
@@ -166,16 +166,66 @@ a {
 .footerBox .ContactLink {
   margin-top: 20px;
 }
+/* Site.js CSS */
+.Site {
+  display: flex;
+  flex-direction: column;
+}
+
+.Site a {
+  text-decoration: none;
+  color: chartreuse;
+}
+
+.MainImg {
+  display: flex;
+  align-self: center;
+  width:30%
+}
+
+.MainImg img {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.Site .Splash {
+  display: none;
+}
+
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .Splash img {
     width: 100%;
   }
+  .homeHeader {
+    display: none;
+  }
+
+  .Text {
+    width:85%;
+  }
+
+  .MainImg {
+    width: 60%;
+  }
+
+  .footerBox {
+    width:100%;
+  }
+
+  h3{
+    text-align: center;
+  }
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .Splash img {
     width: 80%;
+  }
+
+  .homeHeader {
+    display: none;
   }
 }
 

@@ -18,8 +18,8 @@ const Burger = () => {
   //output:
   //print a div that contains a button that is a hamburger menu icon
   //add commands so that when the button is clicked, the variable will toggle on and off
-  //if the variable is true, open the SidebarNav component
-  //when the variable is false, close the SidebarNav component
+  //if the variable is true, open the BurgerNav component
+  //when the variable is false, close the BurgerNav component
   return (
     <div id="burgerbar">
       <div className="burgerDiv">

@@ -3,7 +3,7 @@ import SiteHeader from './siteComps/SiteHeader.js'
 import Footer from './Footer.js'
 import SiteNav from './SiteNav.js'
 import Burger from './siteComps/Burger.js'
-import './css/Site.css';
+import '../App.css';
 import { Switch, Route, Link } from 'react-router-dom'
 
 export default function Site() {

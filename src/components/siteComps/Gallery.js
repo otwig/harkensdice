@@ -1,13 +1,14 @@
 import React from 'react'
 import '../css/Gallery.css'
 import SiteHeader from './SiteHeader.js'
-import SiteNav from '../SiteNav.js'
+import Burger from './Burger.js'
 import Footer from '../Footer.js'
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export default function Gallery() {
   return (
     <div className='Gallery'>
+      <Burger />
       <SiteHeader />
 
       <div className="Text">
