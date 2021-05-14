@@ -11,18 +11,30 @@
   align-items: center;
 }
 
-.Home {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 header {
   margin: 20px 0px 00px 0px;
 }
 
 header img {
   width: 100%;
+}
+
+/* landing page styling */
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Splash img {
+  width: 40%;
+}
+
+.Splash {
+  display: flex;
+  position: absolute;
+  z-index: 0;
+  justify-content: center;
 }
 
 /* button styling */
@@ -48,6 +60,7 @@ button {
   display: flex;
   flex-direction: column;
   z-index: 2;
+  margin-top: 50px;
 }
 
 /* link styling */
@@ -85,12 +98,7 @@ a {
   margin: 50px 0px 15px 0px;
 }
 
-/* landing page image styling */
-.Splash {
-  position: absolute;
-  z-index: 0;
-}
-
+/* footer styling */
 .footerBox p,
 .footerBox h4 {
   color: white;
@@ -118,4 +126,37 @@ a {
   width: 80%;
   align-self: center;
   bottom: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .Splash img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .Splash img {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .Splash img {
+    width: 60%;
+  }
+  .ButtonBox {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .ButtonBox {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .ButtonBox {
+    margin-top: 100px;
+  }
 }

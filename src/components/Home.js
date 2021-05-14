@@ -12,7 +12,7 @@ function Home() {
         <button><a href="https://www.tiktok.com/@harkensdice?lang=en">TikTok</a></button>
       </div>
       <div className='Splash'>
-        <img src="/images/dice.png" alt="" />
+        <img src="/images/IMG_1790.jpg" alt="" />
       </div>
     </div>
     
