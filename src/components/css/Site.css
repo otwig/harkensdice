@@ -1,28 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap");
-/* font-family */
-* {
-  font-family: "Rubik";
-}
-
-.Site header {
-  margin: 20px 0px 0px 0px;
-}
-
-.Site .buttonBox {
+.Site {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.Site button {
-  font-family: "Rubik";
-  font-weight: 200;
-  background-color: black;
-  border: none;
-  text-align: center;
-  display: inline-block;
-  font-size: 15px;
-  padding: 10px 50px;
+  flex-direction: column;
 }
 
 .Site a {
@@ -30,62 +8,15 @@
   color: chartreuse;
 }
 
-.Site {
-  display: flex;
-  flex-direction: column;
-}
-
-.Site .homeHeader {
-  display: flex;
-  justify-content: space-around;
-  background-color: white;
-  font-weight: 700;
-  width: 80%;
-  align-self: center;
-  margin: 10px;
-}
-
-.homeHeader a {
-  color: black;
-  font-size: 22px;
-  padding:10px;
-}
-
-.homeHeader a:hover {
-  background-color: black;
-  color:chartreuse;
-}
-
-.homeHeader a:active {
-  background-color:black;
-  color:white;
-}
-
 .MainImg {
   display: flex;
-  justify-content: center;
+  align-self: center;
+  width:30%
 }
 
 .MainImg img {
   margin-bottom: 15px;
-  width: 30%;
-  align-self: center;
-}
-
-.Text {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 20px;
-  text-align: justify;
-  align-self: center;
-  width: 60%;
-}
-
-.Site h3 {
-  margin-bottom: 0;
-  color: white;
-  padding: 0 25px;
-  background-color: black;
+  width: 100%;
 }
 
 .Site .Splash {

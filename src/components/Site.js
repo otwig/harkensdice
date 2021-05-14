@@ -10,7 +10,6 @@ export default function Site() {
   return (
     <div className='Site'>
       <Burger />
-      <SiteNav />
       <SiteHeader />
      
       <div className="Text">

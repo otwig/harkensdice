@@ -1,28 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap");
-
-* {
-  font-family: "Rubik";
-}
-
-.About header {
-  margin: 20px 0px 0px 0px;
-}
-
-.About .ButtonBox {
+.About {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.About button {
-  font-family: "Rubik";
-  font-weight: 200;
-  background-color: black;
-  border: none;
-  text-align: center;
-  display: inline-block;
-  font-size: 15px;
-  padding: 10px 50px;
+  flex-direction: column;
 }
 
 .About a {
@@ -30,74 +8,30 @@
   color: chartreuse;
 }
 
-.About {
-  display: flex;
-  flex-direction: column;
-}
-
-.About h3 {
-  margin-bottom: 0;
-  color: white;
-  padding: 0 25px;
-  background-color: black;
-}
-
-.About .GalleryLink  {
+.About .GalleryLink {
   font-weight: 700;
-  margin-bottom: 10px;
-  padding: 0 10px;
+  margin-bottom: 30px;
+  padding: 10px 15px;
   font-size: 14pt;
-  background-color:black;
-}
-
-.About .homeHeader {
-  display: flex;
-  justify-content: space-around;
-  background-color: white;
-  font-weight: 700;
-  width: 80%;
+  background-color: black;
   align-self: center;
-  margin: 10px;
-}
-
-.homeHeader a {
-  color: black;
-  font-size: 22px;
-}
-
-.Gallery {
-  display: flex;
-  justify-content: center;
-}
-
-.Text {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 20px;
-  text-align: justify;
-  align-items: center;
 }
 
 .About .Splash {
   display: none;
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
-
+@media screen and (min-width: 320px) and (max-width: 480px) {
 }
 
-@media screen and (min-width: 481px) and (max-width:768px) {
-  
+@media screen and (min-width: 481px) and (max-width: 768px) {
 }
 
-@media screen and (min-width: 769px) and (max-width:1024px) {
-  
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 }
 
-@media screen and (min-width: 1025px) and (max-width:1200px) {
-  
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
 }
 
 @media screen and (min-width: 1201px) {
-  
 }

@@ -1,66 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap");
-
-* {
-  font-family: "Rubik";
-}
-
-.Process header {
-  margin: 20px 0px 0px 0px;
-}
-
-.Process .ButtonBox {
-  display: flex;
-  flex-direction: row;
+.Process {
+  display: flex;  
+  flex-direction: column;
   justify-content: center;
 }
 
-.Process button {
-  font-family: "Rubik";
-  font-weight: 200;
-  background-color: black;
-  border: none;
-  text-align: center;
-  display: inline-block;
-  font-size: 15px;
-  padding: 10px 50px;
-}
-
-.Process a {
+.Process .Text a {
   text-decoration: none;
   color: chartreuse;
-}
-
-.Process {
-  display: flex;
-  flex-direction: column;
-}
-
-.Process .homeHeader {
-  display: flex;
-  justify-content: space-around;
-  background-color: white;
-  font-weight: 700;
-  width: 80%;
-  align-self: center;
-  margin:10px;
-}
-
-.homeHeader a {
-  color: black;
-  font-size: 22px;
-}
-
-.Process {
-  display: flex;
-  justify-content: center;
-}
-
-.Text {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 20px;
-  text-align: justify;
-  align-items: center;
+  background-color:black;
+  border-radius: 2px;
+  padding: 0 5px;
 }
 
 .Process .Splash {
@@ -76,13 +25,6 @@
 .Process .imageContainer img {
   width: 35%;
   margin: 15px;
-}
-
-.Process h3 {
-  margin-bottom: 0;
-  color: white;
-  padding: 0 25px;
-  background-color: black;
 }
 
 @media screen and (min-width:320px) and (max-width:480px) {

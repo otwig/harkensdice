@@ -8,7 +8,6 @@ import { Switch, Route, Link } from 'react-router-dom'
 export default function Process() {
   return (
     <div className='Process'>
-      <SiteNav />
       <SiteHeader />
 
       <div className="Text">

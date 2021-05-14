@@ -1,34 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap");
 
-* {
-  font-family: "Rubik";
-}
-
-.Gallery header {
-  margin: 20px 0px 0px 0px;
-}
-
-.Gallery .ButtonBox {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.Gallery button {
-  font-family: "Rubik";
-  font-weight: 200;
-  background-color: black;
-  border: none;
-  text-align: center;
-  display: inline-block;
-  font-size: 15px;
-  padding: 10px 50px;
-}
-
-.Gallery a {
-  text-decoration: none;
-  color: chartreuse;
-}
 
 .Gallery {
   display: flex;
@@ -36,30 +6,7 @@
   justify-content: center;
 }
 
-.Gallery .homeHeader {
-  display: flex;
-  justify-content: space-around;
-  background-color: white;
-  font-weight: 700;
-  width: 80%;
-  align-self: center;
-  margin:10px;
-}
-
-.homeHeader a {
-  color: black;
-  font-size: 22px;
-}
-
-.Text {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 20px;
-  text-align: justify;
-  align-items: center;
-}
-
-img {
+.Gallery img {
   width: 90%;
 }
 
@@ -67,17 +14,16 @@ img {
   display: none;
 }
 
-.Gallery h3 {
-  margin-bottom: 0;
-  color: white;
-  padding: 0 25px;
-  background-color: black;
-}
-
 .Gallery h4 {
-  margin-top:25px;
+  margin-top:20px;
   margin-bottom: 5px;
 }
+
+.Gallery a {
+  text-decoration: none;
+  color: chartreuse;
+}
+
 
 /* ``````````````````````````````````*/
 .galleries {
@@ -92,6 +38,7 @@ img {
   flex-direction: column;
   width: 40%;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .diceLarge {

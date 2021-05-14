@@ -9,7 +9,6 @@ import { Switch, Route, Link } from 'react-router-dom'
 export default function About() {
   return (
     <div className='About'>
-      <SiteNav />
       <SiteHeader />
 
       <div className="Text">

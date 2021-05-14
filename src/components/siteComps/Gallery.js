@@ -8,7 +8,6 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 export default function Gallery() {
   return (
     <div className='Gallery'>
-      <SiteNav />
       <SiteHeader />
 
       <div className="Text">

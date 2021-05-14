@@ -7,6 +7,7 @@ export default function SiteHeader() {
       <Link to="/Site">Home</Link>
       <Link to='/About'>About</Link>
       <Link to='/Process'>Process</Link>
+      <a href="https://www.etsy.com/shop/harkensdice">Shop</a>
       <Link to='/Gallery'>Gallery</Link>
     </div>
   )
