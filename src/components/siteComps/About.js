@@ -2,6 +2,7 @@ import React from 'react'
 import SiteHeader from './SiteHeader.js'
 import SiteNav from '../SiteNav.js'
 import Footer from '../Footer.js'
+import Gallery from '../siteComps/Gallery.js'
 import '../css/About.css'
 import { Switch, Route, Link } from 'react-router-dom'
 
@@ -31,6 +32,7 @@ export default function About() {
           <li>Eldritch Vibes: smokey whisps trapped in neon resin</li>
           <li>Black Foil: an experimental avenue of colorful or clear resins with sprarkle gilded with black foil</li>
         </ul>
+        <Link to="/Gallery" className="GalleryLink">View the collections here</Link>
       </div>
       <Footer />
     </div>

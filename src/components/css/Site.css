@@ -67,7 +67,7 @@
 }
 
 .MainImg img {
-  margin-top: 10px;
+  margin-bottom: 15px;
   width: 30%;
   align-self: center;
 }
@@ -101,13 +101,55 @@
 }
 
 @media screen and (min-width: 769px) and (max-width:1024px) {
-  
+  #burger {
+    display: none;
+  }
+
+  #burgerbar {
+    display:none !important;
+  }
+
+  .burgerNavBar li {
+    display:none;
+  }
+
+  .burgerLogo {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1025px) and (max-width:1200px) {
-  
+  #burger {
+    display: none;
+  }
+
+  #burgerbar {
+    display:none !important;
+  }
+
+  .burgerNavBar li {
+    display:none;
+  }
+
+  .burgerLogo {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1201px) {
-  
+  #burger {
+    display: none;
+  }
+
+  #burgerbar {
+    display:none !important;
+  }
+
+  .burgerNavBar li {
+    display:none;
+  }
+
+  .burgerLogo {
+    display: none;
+  }
 }
