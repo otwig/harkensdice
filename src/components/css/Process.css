@@ -18,8 +18,9 @@
 
 .Process .imageContainer {
   display: flex;
-  width: 35%;
-  justify-content: space-between;
+  width: 45%;
+  align-self: center;
+  justify-content: center;
 }
 
 .Process .imageContainer img {
@@ -36,17 +37,14 @@
 }
 
 @media screen and (min-width: 481px) and (max-width:768px) {
-  
+  .Process .imageContainer {
+    flex-direction: column;
+    width: 60%;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width:1024px) {
-  
-}
-
-@media screen and (min-width: 1025px) and (max-width:1200px) {
-  
-}
-
-@media screen and (min-width: 1201px) {
-  
+  .Process .imageContainer {
+    width: 55%;
+  }
 }
