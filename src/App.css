@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap");
-boody {
-  margin:0;
+body {
+  margin: 0;
 }
 
 /* text styling */
@@ -169,7 +169,20 @@ a {
 
 .footerBox .ContactLink {
   margin-top: 20px;
+  margin-bottom: 10px;
 }
+
+.footerBox .Socials {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerBox .Socials img {
+  background-color: white;
+  border-radius: 100%;
+  width:50px;
+}
+
 /* Site.js CSS */
 .Site {
   display: flex;
@@ -184,7 +197,7 @@ a {
 .MainImg {
   display: flex;
   align-self: center;
-  width:30%
+  width: 30%;
 }
 
 .MainImg img {
@@ -196,7 +209,6 @@ a {
   display: none;
 }
 
-
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .Splash img {
     width: 100%;
@@ -206,7 +218,7 @@ a {
   }
 
   .Text {
-    width:85%;
+    width: 85%;
   }
 
   .MainImg {
@@ -214,13 +226,12 @@ a {
   }
 
   .footerBox {
-    width:100%;
+    width: 100%;
   }
 
-  h3{
+  h3 {
     text-align: center;
   }
-
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -232,9 +243,8 @@ a {
     display: none;
   }
 
-  
   .Text {
-    width:85%;
+    width: 85%;
   }
 
   .MainImg {
@@ -242,13 +252,12 @@ a {
   }
 
   .footerBox {
-    width:100%;
+    width: 100%;
   }
 
-  h3{
+  h3 {
     text-align: center;
   }
-
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {

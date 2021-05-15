@@ -1,7 +1,7 @@
 // ------------ Imports ---------------
 import React, { useState } from "react";
 import BurgerNav from "./BurgerNav";
-import BurgerIcon from "./burgericon.jpg";
+import BurgerIcon from "./images/burgericon.jpg";
 import '../css/Burger.css'
 import { Link } from "react-router-dom";
 
