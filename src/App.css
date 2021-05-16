@@ -353,11 +353,11 @@ header img {
   display: flex;
   align-self: center;
   justify-content: center;
-  width: 100%;
+  width: 80%;
 }
 
   .MainImg img {
-    width: 200px;
+    width: 100%;
   }
 
   /*Process.js styling*/
