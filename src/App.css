@@ -354,6 +354,7 @@ header img {
   align-self: center;
   justify-content: center;
   width: auto;
+  height: auto;
 }
 
   /*Process.js styling*/
