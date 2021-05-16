@@ -341,7 +341,8 @@ header img {
     width: auto;
   }
   .Splash img {
-    width: 80%;
+    width: 90%;
+    align-self: center;
   }
 
   .homeHeader {
