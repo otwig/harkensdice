@@ -393,12 +393,12 @@ header img {
     width: 90%;
   }
 
-  .diceLarge {
+  /* .diceLarge {
     width: auto;
-  }
+  } */
 
   .Gallery img {
-    width: 90%;
+    width: 100%;
   }
 
   /*Contact.js styling*/
