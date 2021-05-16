@@ -241,6 +241,7 @@ header img {
 .diceLarge {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 /* 
 .smallGallery {
@@ -389,6 +390,10 @@ header img {
 
   .largeGallery {
     width: 90%;
+  }
+
+  .Gallery img {
+    width: 100%;
   }
 
   /*Contact.js styling*/
