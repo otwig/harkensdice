@@ -353,12 +353,8 @@ header img {
   display: flex;
   align-self: center;
   justify-content: center;
-  width: 80%;
+  width: auto;
 }
-
-  .MainImg img {
-    width: 100%;
-  }
 
   /*Process.js styling*/
   .Process .imageContainer {
