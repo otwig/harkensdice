@@ -48,6 +48,7 @@ h3 {
   position: absolute;
   z-index: 0;
   justify-content: center;
+  width:46vh;
 }
 
 /* button styling */
