@@ -390,7 +390,7 @@ header img {
   }
 
   .largeGallery {
-    width: 90%;
+    width: auto;
   }
 
   /* .diceLarge {
@@ -398,7 +398,7 @@ header img {
   } */
 
   .Gallery img {
-    width: 100%;
+    width: 90%;
   }
 
   /*Contact.js styling*/
