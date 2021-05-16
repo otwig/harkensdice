@@ -147,12 +147,13 @@ header img {
 .MainImg {
   display: flex;
   align-self: center;
+  justify-content: center;
   width: 30%;
 }
 
 .MainImg img {
-  margin-bottom: 15px;
   width: 100%;
+  margin: 15px;
 }
 
 .Site .Splash {
@@ -190,9 +191,9 @@ header img {
 
 .Process .imageContainer {
   display: flex;
-  width: 45%;
   align-self: center;
   justify-content: center;
+  width: 45%;
 }
 
 .Process .imageContainer img {
@@ -349,13 +350,16 @@ header img {
   }
 
   /*Home.js styling*/
-.MainImg {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  width: auto;
-  height: auto;
-}
+  .MainImg {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+
+  .MainImg img {
+    width: 80%;
+    margin: 0 15px 15px 15px;
+  }
 
   /*Process.js styling*/
   .Process .imageContainer {
