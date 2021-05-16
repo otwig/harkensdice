@@ -336,10 +336,14 @@ header img {
 @media screen and (min-width: 320px) and (max-width: 480px) {
   /*general styling*/
   .Splash {
+    flex-direction: column;
+    align-items: center;
     width: auto;
   }
+  .Splash img {
+    width: 80%;
+  }
 
-  
   .homeHeader {
     display: none;
   }
