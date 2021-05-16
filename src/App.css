@@ -40,7 +40,7 @@ h3 {
 }
 
 .Splash img {
-  width: 40%;
+  width: 100%;
 }
 
 .Splash {
@@ -48,6 +48,7 @@ h3 {
   position: absolute;
   z-index: 0;
   justify-content: center;
+  width: 40%;
 }
 
 /* button styling */
@@ -334,9 +335,11 @@ header img {
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   /*general styling*/
-  .Splash img {
-    width: 100%;
+  .Splash {
+    width: auto;
   }
+
+  
   .homeHeader {
     display: none;
   }
