@@ -1,5 +1,4 @@
 import React from 'react'
-import '../css/Gallery.css'
 import SiteHeader from './SiteHeader.js'
 import Burger from './Burger.js'
 import Footer from '../Footer.js'

@@ -2,7 +2,6 @@ import React from 'react'
 import SiteHeader from './SiteHeader.js'
 import Burger from './Burger.js'
 import Footer from '../Footer.js'
-import '../css/Process.css'
 import { Switch, Route, Link } from 'react-router-dom'
 
 export default function Process() {

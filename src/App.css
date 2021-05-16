@@ -25,19 +25,11 @@ h3 {
   width: 60%;
 }
 
-/* set-up for the site, in which all components are organized */
+/* set-up for the application, in which all components are organized */
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-header {
-  margin: 20px 0px 0px 0px;
-}
-
-header img {
-  width: 100%;
 }
 
 /* landing page styling */
@@ -84,10 +76,26 @@ button {
   margin-top: 50px;
 }
 
-/* link styling */
-a {
-  color: black;
+/*link styling*/
+.Text a {
   text-decoration: none;
+  color: chartreuse;
+  background-color: black;
+  border-radius: 2px;
+  padding: 0 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header styling */
+header {
+  margin: 20px 0px 0px 0px;
+}
+
+header img {
+  width: 100%;
 }
 
 /* navigation menu styling */
@@ -125,11 +133,139 @@ a {
   color: white;
 }
 
-/* contact component styling */
-.contact {
+/* Site.js CSS */
+.Site {
+  display: flex;
+  flex-direction: column;
+}
+
+.Site a {
+  text-decoration: none;
+  color: chartreuse;
+}
+
+.MainImg {
+  display: flex;
+  align-self: center;
+  width: 30%;
+}
+
+.MainImg img {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.Site .Splash {
+  display: none;
+}
+/* About.js component styling */
+.About {
+  display: flex;
+  flex-direction: column;
+}
+
+.About .GalleryLink {
+  font-weight: 700;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+  font-size: 14pt;
+  background-color: black;
+  align-self: center;
+}
+
+.About .Splash {
+  display: none;
+}
+
+/*Process.js component styling*/
+.Process {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Process .Splash {
+  display: none;
+}
+
+.Process .imageContainer {
+  display: flex;
+  width: 45%;
+  align-self: center;
+  justify-content: center;
+}
+
+.Process .imageContainer img {
+  width: 100%;
+  margin: 15px;
+}
+
+/*Gallery.js component styling*/
+
+.Gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Gallery img {
+  width: 90%;
+}
+
+.Gallery .Splash {
+  display: none;
+}
+
+.Gallery h4 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.galleries {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.largeGallery {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.diceLarge {
   display: flex;
   justify-content: center;
-  margin: 50px 0px 15px 0px;
+}
+/* 
+.smallGallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.diceSmall {
+  display: flex;
+  justify-content: center;
+} */
+
+/* contact component styling */
+.Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Contact h4 {
+  text-align: center;
+}
+
+.Olivia {
+  width: 30vh;
+  align-self: center;
 }
 
 /* footer styling */
@@ -143,8 +279,8 @@ a {
 }
 
 .footerBox a {
-  margin-left: 5px;
   color: chartreuse;
+  padding: 0 5px;
 }
 
 .footerBox a:hover {
@@ -172,44 +308,31 @@ a {
   margin-bottom: 10px;
 }
 
+/*social icons styling*/
 .footerBox .Socials {
   display: flex;
   flex-direction: row;
 }
 
+.footerBox .Socials a:hover {
+  background-color: black;
+  border-radius: 100%;
+}
+
+.footerBox .Socials img:hover {
+  background-color: chartreuse;
+  border-radius: 100%;
+  width: 50px;
+}
+
 .footerBox .Socials img {
   background-color: white;
   border-radius: 100%;
-  width:50px;
-}
-
-/* Site.js CSS */
-.Site {
-  display: flex;
-  flex-direction: column;
-}
-
-.Site a {
-  text-decoration: none;
-  color: chartreuse;
-}
-
-.MainImg {
-  display: flex;
-  align-self: center;
-  width: 30%;
-}
-
-.MainImg img {
-  margin-bottom: 15px;
-  width: 100%;
-}
-
-.Site .Splash {
-  display: none;
+  width: 50px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  /*general styling*/
   .Splash img {
     width: 100%;
   }
@@ -221,20 +344,45 @@ a {
     width: 85%;
   }
 
+  h3 {
+    text-align: center;
+  }
+
+  /*Home.js styling*/
   .MainImg {
     width: 60%;
   }
 
+  /*Process.js styling*/
+  .Process .imageContainer {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+
+  /*Footer.js styling*/
   .footerBox {
     width: 100%;
   }
+  /*Gallery.js styling*/
+  .galleries {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
 
-  h3 {
-    text-align: center;
+  .largeGallery {
+    width: 90%;
+  }
+
+  /*Contact.js styling*/
+  .Olivia {
+    width: 200px;
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+  /*general styling*/
   .Splash img {
     width: 80%;
   }
@@ -247,20 +395,39 @@ a {
     width: 85%;
   }
 
+  h3 {
+    text-align: center;
+  }
+
+  /*Home.js styling*/
   .MainImg {
     width: 60%;
   }
-
+  /*Footer.js styling*/
   .footerBox {
     width: 100%;
   }
 
-  h3 {
-    text-align: center;
+  /*Gallery.js styling*/
+  .galleries {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .largeGallery {
+    width: 90%;
+  }
+
+  /*Process.js styling*/
+  .Process .imageContainer {
+    flex-direction: column;
+    width: 60%;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  /*landing page styling*/
   .Splash img {
     width: 60%;
   }
@@ -271,15 +438,22 @@ a {
   #burgerbar {
     display: none;
   }
+
+  /*Process.js styling*/
+  .Process .imageContainer {
+    width: 55%;
+  }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
+  /*landing page styling*/
   .ButtonBox {
     margin-top: 100px;
   }
 }
 
 @media screen and (min-width: 1201px) {
+  /*landing page styling*/
   .ButtonBox {
     margin-top: 100px;
   }

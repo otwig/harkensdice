@@ -2,8 +2,6 @@ import React from 'react'
 import SiteHeader from './SiteHeader.js'
 import Burger from './Burger.js'
 import Footer from '../Footer.js'
-import Gallery from '../siteComps/Gallery.js'
-import '../css/About.css'
 import { Switch, Route, Link } from 'react-router-dom'
 
 export default function About() {
