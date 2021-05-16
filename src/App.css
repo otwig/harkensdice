@@ -386,14 +386,19 @@ header img {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    width:auto;
   }
 
   .largeGallery {
     width: 90%;
   }
 
+  .diceLarge {
+    width: auto;
+  }
+
   .Gallery img {
-    width: 100%;
+    width: 90%;
   }
 
   /*Contact.js styling*/
