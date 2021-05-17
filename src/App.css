@@ -48,7 +48,7 @@ h3 {
   position: absolute;
   z-index: 0;
   justify-content: center;
-  width: 40%;
+  width: 80%;
 }
 
 /* button styling */
@@ -243,17 +243,6 @@ header img {
   justify-content: center;
   width: 100%;
 }
-/* 
-.smallGallery {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.diceSmall {
-  display: flex;
-  justify-content: center;
-} */
 
 /* contact component styling */
 .Contact {
@@ -410,7 +399,7 @@ header img {
 @media screen and (min-width: 481px) and (max-width: 768px) {
   /*general styling*/
   .Splash img {
-    width: 80%;
+    width: 100%;
   }
 
   .homeHeader {
