@@ -40,7 +40,7 @@ h3 {
 }
 
 .Splash img {
-  width: 100%;
+  width: 70%;
 }
 
 .Splash {
@@ -210,10 +210,6 @@ header img {
   justify-content: center;
 }
 
-.Gallery img {
-  width: 90%;
-}
-
 .Gallery .Splash {
   display: none;
 }
@@ -235,13 +231,11 @@ header img {
   flex-direction: column;
   width: 40%;
   align-items: center;
-  margin-bottom: 10px;
 }
 
-.diceLarge {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+.largeGallery img {
+  width: 90%;
+  margin-bottom: 10px;
 }
 
 /* contact component styling */
@@ -375,7 +369,7 @@ header img {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    width:auto;
+    width: auto;
   }
 
   .largeGallery {
@@ -471,5 +465,9 @@ header img {
   /*landing page styling*/
   .ButtonBox {
     margin-top: 100px;
+  }
+
+  .Splash img {
+    width: 50%;
   }
 }
